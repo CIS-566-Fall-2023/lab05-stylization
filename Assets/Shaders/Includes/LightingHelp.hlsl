@@ -31,3 +31,23 @@ void ChooseColor_float(float3 Highlight, float3 Shadow, float Diffuse, float Thr
         OUT = Highlight;
     }
 }
+
+void ChooseColor3Tone_float(float3 Highlight, float3 Shadow, float3 MidTone, float Diffuse, float Threshold, float Threshold2, out float3 OUT, out float3 SHADOW_HATCH_MASK, out float3 MIDTONE_HATCH_MASK)
+{
+    SHADOW_HATCH_MASK = float3(0.0f, 0.0f, 0.0f);
+    MIDTONE_HATCH_MASK = float3(0.0f, 0.0f, 0.0f);
+    if (Diffuse < Threshold && Diffuse < Threshold2)
+    {
+        OUT = Shadow;
+        SHADOW_HATCH_MASK = float3(1.0f, 1.0f, 1.0f);
+    }
+    else if (Diffuse < Threshold2)
+    {
+        OUT = MidTone;
+        MIDTONE_HATCH_MASK = float3(1.0f, 1.0f, 1.0f);
+    }
+    else
+    {
+        OUT = Highlight;
+    }
+}
