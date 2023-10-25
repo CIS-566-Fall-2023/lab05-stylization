@@ -1,5 +1,5 @@
 # Lab 05 - Stylization - Saksham Nagpal & Kyra Clark
-Let's practice adding stylization to a 3D scene using Unity's shader graph!
+Practicing stylization to a 3D scene using Unity's shader graph
 
 ### 1. Simple two-tone toon shading
 
