@@ -6,13 +6,6 @@ We will be stylizing a "toon" look by creating a shader in Unity that supports s
 
 ## 2. What’s provided:
 This tutorial video will cover the base code, and then go over the process of making a limited version of a toon shader. 
-  2.  Full Requirements of the shader:
-    1.  (ATLEAST) 3 Different Bands of Colors based on the light/normal dot product:
-      1. Highlight, Midtone and Shadow.
-    2. Has adjustable threshold values for these color bands
-    3. Has a smoothness parameter for interpolation between color bands
-  3. Limited Version:
-      1. Has 2 bands of colors, black and a customizable albedo
          
 ## 3. Lab Puzzles/Goals:
 The goal of each puzzle will be to replicate the look of each puzzle’s image.
