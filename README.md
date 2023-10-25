@@ -2,6 +2,8 @@
          
 ### 1. Puzzle 1: Simple two-tone toon shading
 
+Thank you Logan for the insightful tutorial for Puzzle 1!
+
 ![](ball.png) 
 
 ### 2. Puzzle 2: Leveled-up toon shading
