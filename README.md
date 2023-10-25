@@ -13,9 +13,8 @@ This tutorial video will cover the base code, and then go over the process of ma
 The goal of each puzzle will be to replicate the look of each puzzle’s image.
 
 ### 1. Puzzle 1: Simple two-tone toon shading
-   
-<img width="400" alt="Puzzle 1" src="https://github.com/CIS-566-Fall-2023/lab05-stylization/assets/72320867/f27aec24-0d04-4b73-95d3-b55e2da13603">
 
+<img width="544" alt="277997527-f27aec24-0d04-4b73-95d3-b55e2da13603" src="https://github.com/CIS-566-Fall-2023/lab05-stylization/assets/1758825/c9ae57ba-7a7f-4b03-829c-83fc35740c2f">
 
    * Follow the tutorial to create a 2 band toon shader, and then create multiple materials based off of the shader graph
    * Attach those materials to the objects (the sphere and plane) in the default scene "Lab Scene 1" to produce a look similar to the one above!
