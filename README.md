@@ -12,4 +12,5 @@ Let's practice adding stylization to a 3D scene using Unity's shader graph!
 
 ## Puzzle 3
 
-![image](https://github.com/IwakuraRein/CIS-566-lab05-stylization/assets/28486541/94c219c0-e6f4-4fca-9d53-1485246f7ee5)
+![image](https://github.com/IwakuraRein/CIS-566-lab05-stylization/assets/28486541/716307e1-6aab-462b-969a-180f41e992a0)
+
