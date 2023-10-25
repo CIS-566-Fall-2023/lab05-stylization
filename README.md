@@ -1,10 +1,11 @@
 # Lab 05 - Stylization!
 Solo lab this time!
+
 2-Toon Screenshot: <img width="1739" alt="image" src="https://github.com/xcupsilon/lab05-stylization/assets/50472308/460372e0-0d1a-4597-9bea-d558ac3aad2b">
 
-3-Toon Screenshot: <img width="1740" alt="image" src="https://github.com/xcupsilon/lab05-stylization/assets/50472308/36ce5001-d756-4213-ae52-81e12f1d6815">
+3-Toon Screenshot: <img width="1916" alt="image" src="https://github.com/xcupsilon/lab05-stylization/assets/50472308/da88638e-ea45-4c6f-8cbe-d0ef38dd2c91">
 
-3-Toon Stylized Shadow Screenshot: 
+3-Toon Stylized Shadow Screenshot: <img width="1841" alt="image" src="https://github.com/xcupsilon/lab05-stylization/assets/50472308/ad94e4db-c96d-4596-99f3-c4f14d5fd36b">
 
 Let's practice adding stylization to a 3D scene using Unity's shader graph!
 
