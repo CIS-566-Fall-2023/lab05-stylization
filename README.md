@@ -1,3 +1,12 @@
+
+
+![73c6ecfc0a7fd6fd8ea6171a843d868](https://github.com/horo-ursa/lab05-stylization/assets/54868517/fc0da911-cfe3-4c30-8be2-26247e119961)
+
+![1a2c3a7773a9cb800e57047a42b755f](https://github.com/horo-ursa/lab05-stylization/assets/54868517/3ea8e85c-28b4-4182-8640-5300a98e1123)
+
+
+![06f8ad33288d6e7f784bff7bb77f126](https://github.com/horo-ursa/lab05-stylization/assets/54868517/b4316d12-f4c7-4ebd-8e21-f3ea28101f81)
+
 # Lab 05 - Stylization!
 Let's practice adding stylization to a 3D scene using Unity's shader graph!
 
