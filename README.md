@@ -1,4 +1,19 @@
 # Lab 05 - Stylization!
+
+## Results
+
+### Puzzle 1
+
+<img width="728" alt="1" src="https://github.com/GrahamZen/lab05-stylization/assets/31180310/632a793b-d9fb-4c1c-b42d-4b940cd3277d">
+
+### Puzzle 2
+
+<img width="728" alt="2" src="https://github.com/GrahamZen/lab05-stylization/assets/31180310/4f7e05d4-7c62-40e2-9ba8-b84a631a1548">
+
+### Puzzle 3
+
+<img width="728" alt="3" src="https://github.com/GrahamZen/lab05-stylization/assets/31180310/6e40a5b4-c857-4a66-a3bd-03497cc4548b">
+
 Let's practice adding stylization to a 3D scene using Unity's shader graph!
 
 ## Introduction
