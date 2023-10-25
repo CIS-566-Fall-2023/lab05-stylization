@@ -3,7 +3,7 @@ Yue Zhang
 
 |Puzzle 1: Simple two-tone toon shading|Puzzle 2: Leveled-up toon shading|Puzzle 3: Stylized Shadow|
 |-----|-----|-----|
-|![](img/puzzle1.png)|![](img/puzzle2.png)|-----|
+|![](img/puzzle1.png)|![](img/puzzle2.png)|![](img/puzzle3.png)|
 
 # Lab 05 - Stylization!
 Let's practice adding stylization to a 3D scene using Unity's shader graph!
