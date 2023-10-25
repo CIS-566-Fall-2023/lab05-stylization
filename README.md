@@ -33,7 +33,7 @@ The goal of each puzzle will be to replicate the look of each puzzle’s image.
 
 
    * Use one of the provided texture png’s in order to add a screenspace shadow pattern onto the shadows of the scene!
-   * Hint 1: what does the "ShadowAttenuation" variable do?
+   * Hint 1: What does the "ShadowAttenuation" variable do?
   
 Extra Credit:
  * Add some soft interpolation at the edges of your bands, for smooth transitions between color bands. Create a "smoothness" parameter that adjusts the degree of smoothness!
