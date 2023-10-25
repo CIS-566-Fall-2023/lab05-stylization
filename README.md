@@ -21,16 +21,14 @@ The goal of each puzzle will be to replicate the look of each puzzle’s image.
 
 ### 2. Puzzle 2: Leveled-up toon shading
 
-<img width="400" alt="Puzzle 2" src="https://github.com/CIS-566-Fall-2023/lab05-stylization/assets/72320867/12d0a844-b6a8-4054-86f9-ee13b5533bf2">
-
+<img width="677" alt="277998209-12d0a844-b6a8-4054-86f9-ee13b5533bf2" src="https://github.com/CIS-566-Fall-2023/lab05-stylization/assets/1758825/6b648f63-7317-40a6-96b7-d2de4405df28">
 
    * Edit your materials to allow for a 3rd color in your scene, such that you have highlights, midtones, shadows on your objects. Edit your shader so that the thresholds on these values are adjustable.
    * Shade the sonic and shadow receiving plane in "Lab Scene 2" to get a look similar to the one above!
 
 ### 3. Puzzle 3: Stylized Shadow
 
-<img width="400" alt="Puzzle 3" src="https://github.com/CIS-566-Fall-2023/lab05-stylization/assets/72320867/be35de1e-1157-4a6e-b4ea-ba015f2750c9">
-
+<img width="436" alt="277998492-be35de1e-1157-4a6e-b4ea-ba015f2750c9" src="https://github.com/CIS-566-Fall-2023/lab05-stylization/assets/1758825/d60cb866-ea00-4f4b-8d53-c85fa1b170f6">
 
    * Use one of the provided texture png’s in order to add a screenspace shadow pattern onto the shadows of the scene!
    * Hint 1: What does the "ShadowAttenuation" variable do?
