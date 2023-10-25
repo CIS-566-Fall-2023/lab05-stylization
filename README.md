@@ -1,42 +1,40 @@
-# Lab 05 - Stylization!
-Let's practice adding stylization to a 3D scene using Unity's shader graph!
+# Stylization!
+Authors: Utkarsh Dwivedi & Linda Zhu
 
 ## Introduction
-We will be stylizing a "toon" look by creating a shader in Unity that supports shadows and multiple lights in real-time! In the process, you will gain some familiarity with Unity’s shader graph.
+We practiced adding stylization to a 3D scene using Unity's shader graph. We want to create to a "toon" look that supports shadows and multiple lights in real-time. 
 
-## What’s provided:
-This tutorial video will cover the base code, and then go over the process of making a limited version of a toon shader.
-
+Our work is based on this tutorial video:
 [Lab Overview and Puzzle 1 Tutorial Video](https://youtu.be/jc5MLgzJong)
          
-## Lab Puzzles:
-The goal of each puzzle will be to replicate the look of each puzzle’s image.
+## Implementation Details:
+### Step 1: Simple two-tone toon shading
+   
+![](img/puzzle1.png)
+<!-- <img width="400" alt="Puzzle 1" src="https://github.com/CIS-566-Fall-2023/lab05-stylization/assets/72320867/f27aec24-0d04-4b73-95d3-b55e2da13603"> -->
 
-### 1. Puzzle 1: Simple two-tone toon shading
 
-<img width="544" alt="277997527-f27aec24-0d04-4b73-95d3-b55e2da13603" src="https://github.com/CIS-566-Fall-2023/lab05-stylization/assets/1758825/c9ae57ba-7a7f-4b03-829c-83fc35740c2f">
+   * To start off, we create a 2 band toon shader, and then create multiple materials based off of the shader graph.
+   * We attach those materials to the objects (the sphere and plane) in the default scene "Lab Scene 1" to produce a look similar to the one above!
 
-   * Follow the tutorial to create a 2 band toon shader, and then create multiple materials based off of the shader graph
-   * Attach those materials to the objects (the sphere and plane) in the default scene "Lab Scene 1" to produce a look similar to the one above!
+### Step 2: Leveled-up three-toon shading 
 
-### 2. Puzzle 2: Leveled-up toon shading
+![](img/puzzle2.png)
+<!-- <img width="400" alt="Puzzle 2" src="https://github.com/CIS-566-Fall-2023/lab05-stylization/assets/72320867/12d0a844-b6a8-4054-86f9-ee13b5533bf2"> -->
 
-<img width="677" alt="277998209-12d0a844-b6a8-4054-86f9-ee13b5533bf2" src="https://github.com/CIS-566-Fall-2023/lab05-stylization/assets/1758825/6b648f63-7317-40a6-96b7-d2de4405df28">
 
-   * Edit your materials to allow for a 3rd color in your scene, such that you have highlights, midtones, shadows on your objects. Edit your shader so that the thresholds on these values are adjustable.
-   * Shade the sonic and shadow receiving plane in "Lab Scene 2" to get a look similar to the one above!
+   * We edit our materials to allow for a 3rd color in the scene, such that we have highlights, midtones, shadows on the objects. We also add additional thresholds to adjust the range of midtone and shadow nands.
+   * Next, we shade the Sonic and shadow receiving plane in "Lab Scene 2" to get a look similar to the one above!
 
-### 3. Puzzle 3: Stylized Shadow
+### Step 3: Shadow hatching
 
-<img width="436" alt="277998492-be35de1e-1157-4a6e-b4ea-ba015f2750c9" src="https://github.com/CIS-566-Fall-2023/lab05-stylization/assets/1758825/d60cb866-ea00-4f4b-8d53-c85fa1b170f6">
+![](img/puzzle3.png)
+<!-- <img width="400" alt="Puzzle 3" src="https://github.com/CIS-566-Fall-2023/lab05-stylization/assets/72320867/be35de1e-1157-4a6e-b4ea-ba015f2750c9"> -->
 
-   * Use one of the provided texture png’s in order to add a screenspace shadow pattern onto the shadows of the scene!
-   * Hint 1: What does the "ShadowAttenuation" variable do?
-  
-Extra Credit:
- * Add some soft interpolation at the edges of your bands, for smooth transitions between color bands. Create a "smoothness" parameter that adjusts the degree of smoothness!
 
-# Submission:
-- Create a pull request against this repository
-- In your readme, add screenshots of your results for Puzzles 1, 2 and 3
-- Profit
+   * We add two other outputs from the `ChooseColor3Tone` function such that we can multiply the patterned texture onto the midtons and shadows to apply the hatching effects.
+   * We add some **extra swirl** by varying the hatching effects for midtones and shadows are achieved by sampling the texture using fragment's screen space position as UV, changing the tiling and offset and rotating the UV to get the final results.
+
+### Extra swirl:
+* We changed the floor to a [soccer field texture](https://stock.adobe.com/search?k=football+field+texture&asset_id=347841963). With the texture as the base color of the floor material, we need to multiply the highlight, midtone and shadow colors to the texture sample such that the shadows can preserve the texture details while overlaying the patterns.
+
