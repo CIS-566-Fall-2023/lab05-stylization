@@ -1,8 +1,8 @@
 # lab05-stylization
-Let's practice using Unity's shader graph!
+Let's practice adding stylization to a 3D scene using Unity's shader graph!
 
 ## 1. Introduction
-  a. We will be creating a toon shader in Unity that supports shadows and multiple lights in real-time! In the process, you will hopefully get a little bit of familiarity with Unity’s shader graph!
+We will be stylizing a "toon" look by creating a shader in Unity that supports shadows and multiple lights in real-time! In the process, you will gain some familiarity with Unity’s shader graph.
 
 ## 2. What’s provided:
   1.  The tutorial video I record for the lab will go over the base code, and will then go over the process of making a limited version of the final toon shader. 
