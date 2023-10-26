@@ -31,3 +31,19 @@ void ChooseColor_float(float3 Highlight, float3 Shadow, float Diffuse, float Thr
         OUT = Highlight;
     }
 }
+
+void ChooseColor2Layer_float(float3 Highlight, float3 Shadow, float3 MidLayer, float Diffuse, float2 Threshold, out float3 OUT)
+{
+    if (Diffuse < Threshold.x)
+    {
+        OUT = Shadow;
+    }
+    else if (Diffuse < Threshold.y)
+    {
+        OUT = MidLayer;
+    }
+    else
+    {
+        OUT = Highlight;
+    }
+}
