@@ -45,3 +45,21 @@ void ChooseColor2_float(float3 Highlight, float3 Midtone, float3 Shadow, float D
         OUT = Highlight;
     }
 }
+
+void ChooseColor3_float(float3 Highlight, float3 Midtone, float3 Shadow, float DiffuseHS, float DiffuseM, float Threshold1, float Threshold2, out float3 OUT)
+{
+    if (DiffuseM >= Threshold1 && DiffuseM <= Threshold2) {
+        OUT = Midtone;
+    }
+    else if (DiffuseHS < Threshold1)
+    {
+        OUT = Shadow;
+    } 
+    else if (DiffuseHS > Threshold2)
+    {
+        OUT = Highlight;
+    }
+    else {
+        OUT = Midtone;
+    }
+}
