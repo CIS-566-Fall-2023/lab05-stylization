@@ -1,4 +1,11 @@
 # Lab 05 - Stylization!
+
+### 1. Puzzle 1:
+![](puzzle1.png)
+### 2. Puzzle 2:
+![](puzzle2.png)
+### 3. Puzzle 3:
+![](puzzle3.png)
 Let's practice adding stylization to a 3D scene using Unity's shader graph!
 
 ## Introduction
