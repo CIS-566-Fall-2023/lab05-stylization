@@ -2,6 +2,7 @@
 Let's practice adding stylization to a 3D scene using Unity's shader graph!
 
 <img width="556" alt="image" src="https://github.com/sherryli02/lab05-stylization/assets/97941858/15db7dbe-910f-4102-b22a-7699b5ad5d58">
+<img width="414" alt="image" src="https://github.com/sherryli02/lab05-stylization/assets/97941858/3d932407-a69a-4792-baa2-3cfd00e82220">
 
 
 
