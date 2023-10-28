@@ -1,3 +1,12 @@
+Sherry Li
+
+Screenshots of results for Puzzles 1, 2 and 3:
+
+<img width="556" alt="image" src="https://github.com/sherryli02/lab05-stylization/assets/97941858/15db7dbe-910f-4102-b22a-7699b5ad5d58">
+<img width="414" alt="image" src="https://github.com/sherryli02/lab05-stylization/assets/97941858/3d932407-a69a-4792-baa2-3cfd00e82220">
+<img width="445" alt="image" src="https://github.com/sherryli02/lab05-stylization/assets/97941858/6d8fbf8e-3ab0-4020-baea-e6b27bae2b35">
+
+
 # Lab 05 - Stylization!
 Let's practice adding stylization to a 3D scene using Unity's shader graph!
 
