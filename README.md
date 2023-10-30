@@ -1,8 +1,17 @@
 # Lab 05 - Stylization!
 Let's practice adding stylization to a 3D scene using Unity's shader graph!
 
-## Introduction
-We will be stylizing a "toon" look by creating a shader in Unity that supports shadows and multiple lights in real-time! In the process, you will gain some familiarity with Unity’s shader graph.
+## Submission Screenshots
+
+Puzzle 1:
+![image](https://github.com/wc41/lab05-stylization/assets/97757188/2538bc0a-394d-4cb0-9283-7fbf9b9292a8)
+
+Puzzle 2:
+![image](https://github.com/wc41/lab05-stylization/assets/97757188/ff1abbd3-5085-4348-857d-f45d2812f666)
+
+Puzzle 3:
+![image](https://github.com/wc41/lab05-stylization/assets/97757188/7fb8af94-543b-4dda-9ba1-130608ac9b8d)
+
 
 ## What’s provided:
 This tutorial video will cover the base code, and then go over the process of making a limited version of a toon shader.
