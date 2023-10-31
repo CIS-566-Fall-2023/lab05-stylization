@@ -1,4 +1,5 @@
-void GetMainLight_float(float3 WorldPos, out float3 Color, out float3 Direction, out float DistanceAtten, out float ShadowAtten) {
+void GetMainLight_float(float3 WorldPos, out float3 Color, out float3 Direction, out float DistanceAtten, out float ShadowAtten) 
+{
 #ifdef SHADERGRAPH_PREVIEW
     Direction = normalize(float3(0.5, 0.5, 0));
     Color = 1;
@@ -17,6 +18,54 @@ void GetMainLight_float(float3 WorldPos, out float3 Color, out float3 Direction,
     Color = mainLight.color;
     DistanceAtten = mainLight.distanceAttenuation;
     ShadowAtten = mainLight.shadowAttenuation;
+#endif
+}
+
+// Compute additional lighting.
+void ComputeAdditionalLighting_float(float3 WorldPosition, float3 WorldNormal, float2 Thresholds, float3 RampedDiffuseValues, out float3 Colour, out float Diffuse) {
+    // Initialise Colour and Diffuse.
+    Colour = float3(0, 0, 0);
+    Diffuse = 0;
+
+# ifndef SHADERGRAPH_PREVIEW
+    int pixelLightCount = GetAdditionalLightsCount();
+
+    for (int i = 0; i < pixelLightCount; i++) {
+        Light light = GetAdditionalLight(i, WorldPosition);
+        float4 temp = unity_LightIndices[i / 4];
+        uint light_i = temp[i % 4];
+
+        half shadowAtten = light.shadowAttenuation * AdditionalLightRealtimeShadow(light_i, WorldPosition, light.direction);
+
+        half NDotL = saturate(dot(WorldNormal, light.direction));
+        half distanceAtten = light.distanceAttenuation;
+
+        half thisDiffuse = distanceAtten * shadowAtten * NDotL;
+
+        half rampedDiffuse = 0;
+
+        if (thisDiffuse < Thresholds.x) {
+            rampedDiffuse = RampedDiffuseValues.x;
+        }
+        else if (thisDiffuse < Thresholds.y) {
+            rampedDiffuse = RampedDiffuseValues.y;
+        }
+        else {
+            rampedDiffuse = RampedDiffuseValues.z;
+        }
+
+        if (light.distanceAttenuation <= 0) {
+            rampedDiffuse = 0.0;
+        }
+
+        Colour += max(rampedDiffuse, 0) * light.color.rgb;
+        Diffuse += rampedDiffuse;
+    }
+    if (Diffuse <= 0.3)
+    {
+        Colour = float3(0, 0, 0);
+        Diffuse = 0;
+    }
 #endif
 }
 
