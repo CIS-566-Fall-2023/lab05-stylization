@@ -1528,7 +1528,7 @@
         "a": 0.0
     },
     "isMainColor": false,
-    "m_ColorMode": 0
+    "m_ColorMode": 1
 }
 
 {
@@ -1739,12 +1739,12 @@
     "m_Hidden": false,
     "m_Value": {
         "r": 1.0,
-        "g": 0.5235849022865295,
-        "b": 0.5235849022865295,
+        "g": 0.3820754885673523,
+        "b": 0.3820754885673523,
         "a": 0.0
     },
     "isMainColor": false,
-    "m_ColorMode": 0
+    "m_ColorMode": 1
 }
 
 {
