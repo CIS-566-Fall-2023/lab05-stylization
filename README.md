@@ -1,5 +1,14 @@
 # Lab 05 Submission | Aboudi Rai
 
+## Puzzle 1:
+![](screenshots/puzzle01.png)
+
+## Puzzle 2:
+![](screenshots/puzzle02.png)
+
+## Puzzle 3:
+![](screenshots/puzzle03.png)
+
 # Lab 05 - Stylization!
 Let's practice adding stylization to a 3D scene using Unity's shader graph!
 
