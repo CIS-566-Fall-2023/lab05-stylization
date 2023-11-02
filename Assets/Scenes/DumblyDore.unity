@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.16215038, g: 0.18873753, b: 0.21095872, a: 1}
+  m_IndirectSpecularColor: {r: 0.10669236, g: 0.105625734, b: 0.08425327, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -259,13 +259,13 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.7921846, g: 1, b: 0.0990566, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.7
   m_Range: 3
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -304,7 +304,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: -0, y: 0, z: 0, w: 1.05e-43}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 1.148e-41}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -323,7 +323,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Version: 3
   m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
+  m_AdditionalLightsShadowResolutionTier: 1
   m_LightLayerMask: 1
   m_RenderingLayers: 1
   m_CustomShadowLayers: 0
@@ -1734,7 +1734,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 24.09
+      scalar: 14.3
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -4742,7 +4742,7 @@ ParticleSystem:
       emitProbability: 1
   LightsModule:
     enabled: 1
-    ratio: 1
+    ratio: 0.42
     light: {fileID: 265497113}
     randomDistribution: 1
     color: 1
@@ -4751,7 +4751,7 @@ ParticleSystem:
     rangeCurve:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 5
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -7267,13 +7267,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1632178502}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0676072, y: 0.1265601, z: 0.0988406, w: 0.9847042}
-  m_LocalPosition: {x: 0.4, y: 4.25, z: -2.83}
+  m_LocalRotation: {x: -0.016979797, y: 0.020008389, z: 0.09399626, w: 0.9952267}
+  m_LocalPosition: {x: 0.16, y: 5.55, z: -2.62}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 6.207, y: 15.317, z: 12.299}
+  m_LocalEulerAnglesHint: {x: -2.152, y: 2.101, z: 10.751}
 --- !u!114 &1632178505
 MonoBehaviour:
   m_ObjectHideFlags: 0
