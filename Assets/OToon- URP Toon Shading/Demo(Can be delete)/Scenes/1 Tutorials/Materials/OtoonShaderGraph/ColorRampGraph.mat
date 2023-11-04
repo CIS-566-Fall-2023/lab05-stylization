@@ -1,0 +1,256 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7473178361272856201
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 4
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ColorRampGraph
+  m_Shader: {fileID: 4800000, guid: e88aeddd2ef1f934d805981244872e27, type: 3}
+  m_ShaderKeywords: _HAFTONESHAPES_STRIPE _HALFTONESHAPE_DOT _RECEIVESHADOWS_OFF
+    _RECEIVE_SHADOWS_OFF
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2050
+  stringTagMap:
+    RenderType: Opaque
+  disabledShaderPasses:
+  - 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_783a5c4afdd1409b9f52f6efe2a604ae:
+        m_Texture: {fileID: 2800000, guid: 2f2ed3112a94742dea3e8e14bc2ef431, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_8f0ac749f1c34870a4cba5fbf1fb4bd2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AllToonRampTexture:
+        m_Texture: {fileID: 2800000, guid: 0698622706f7dfb438d69deaae95e6b0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AllToon_RampTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffuseWrapNoise:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FaceShadowMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HairSpecNoiseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HalfToneNoiseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HalfTonePatternMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HatchingNoiseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HatchingPatternMap:
+        m_Texture: {fileID: 2800000, guid: b56101eec82209e419fad0bc6fff6584, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampLightingCustomFunction_9ca395cd28964891be74406a1822485d_New_12:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularClipMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Boolean_3fb74f8298944d85ad969eb983feeb36: 1
+    - Boolean_b5c3c256e65d45c797a8e6af753f4386: 0
+    - Boolean_f9999c8db29c427d86a843c1a1c85720: 0
+    - OverrideShadowColor: 0
+    - RECEIVESHADOWS: 0
+    - ShadowPatternScale: 16.2
+    - Vector1_0f3ca3289daa40b4a7654cc64fd05ec1: 0
+    - Vector1_27d6e7d385ac4b5fb06bbdc6e42e56a0: 1
+    - Vector1_3124a5f11cf646fb823135e5f2409407: 0
+    - Vector1_48bb6f524e494da799e6a2b3cc237cf8: 0
+    - Vector1_85d44c600d6c46b38d9c8065f25681ea: 0
+    - Vector1_8af7ecece9644c93bba40eabafc9bd62: 1
+    - Vector1_a6dfb8ffb18c4692b0b172b928187b69: 0
+    - Vector1_c6055b6d693d4eab96c2bdbb4ae67f93: 10.85
+    - Vector1_c89c237759254772bbea565ab427f0f9: 0
+    - Vector1_c89cb8dc56774a9583c7b9c3a5725c4c: 0
+    - Vector1_de51566bbe0c417e92cb30ec37e99494: 0.95
+    - Vector1_de51566bbe0c417e92cb30ec37e99494_1: 1.1
+    - Vector1_e5b6f1488dec4326bd8bbd0e05156810: -0.1
+    - Vector1_e6af2df5a4984d6894c4b8686e9d91cb: 0.743
+    - _AllToonOverrideShadowColor: 0
+    - _AllToon_OverrideShadowColor: 0
+    - _AllToon_StepViaRampTexture: 0
+    - _AlphaClip: 0
+    - _Blend: 0
+    - _BrushLowerCut: 0
+    - _BrushSize: 0.8
+    - _BumpScale: 0
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DiffuseStep: 0
+    - _DitherTexelSize: 1
+    - _DitherThreshold: 1
+    - _DstBlend: 0
+    - _EnabledHairSpec: 0
+    - _FaceShadowMapEnabled: 0
+    - _FaceShadowMapPow: 0.2
+    - _FaceShadowSmoothness: 0
+    - _FlattenGI: 1
+    - _GlossinessSource: 0
+    - _HAFTONESHAPES: 1
+    - _HairSpecExponent: 128
+    - _HairSpecNoiseStrength: 1
+    - _HairSpecularSize: 0.8
+    - _HairSpecularSmoothness: 0.1
+    - _HalfToneDiffuseStep: 0
+    - _HalfToneEnabled: 0
+    - _HalfToneIncludeReceivedShadow: 1
+    - _HalfToneShape: 0
+    - _HalfToneUvMode: 0
+    - _HalftoneDiffuseOffest: -1
+    - _HalftoneLightSizeFactor: 1
+    - _HalftoneNoiseClip: 0.8
+    - _HalftoneScale: 15.62
+    - _HalftoneScreenUVMode: 1
+    - _HalftoneSize: 0.38
+    - _HalftoneUseScreenSpaceUV: 1
+    - _HatchingDensity: 0.915
+    - _HatchingDiffuseOffset: -0.128
+    - _HatchingDrawStrength: 11.17
+    - _HatchingEnabled: 1
+    - _HatchingRotation: 0
+    - _HatchingSmoothness: 0.654
+    - _HideInInspector__Vector1_c89cb8dc56774a9583c7b9c3a5725c4c: 0
+    - _NoiseScale: 1
+    - _NoiseStrength: 0.1
+    - _OutlineEnabled: 0
+    - _OutlineMode: 0
+    - _OutlineWidth: 0
+    - _OverrideShadowColor: 0
+    - _QueueOffset: 0
+    - _RIMLIGHTING: 0
+    - _ReceiveShadows: 0
+    - _RimEnabled: 0
+    - _RimLightAlign: 0
+    - _RimLightSmoothness: 0
+    - _RimLightSmootness: 0.706
+    - _RimPower: 0.427
+    - _SPECULARHIGHTLIGHTS: 0
+    - _ShadowPatternSize: 0.55
+    - _Shininess: 0
+    - _SizeFalloff: 0
+    - _Smoothness: 0.5
+    - _SmoothnessSource: 0
+    - _SpecClipMaskScale: 1
+    - _SpecColor_1: 0.119
+    - _SpecFalloff: 0.162
+    - _SpecShadowStrength: 1
+    - _SpecShadowStrenth: 0.97
+    - _SpecSource: 0
+    - _SpecularClipStrength: 0
+    - _SpecularFalloff: 1
+    - _SpecularHighlights: 1
+    - _SpecularSize: 1
+    - _SpherizeNormalEnabled: 0
+    - _SrcBlend: 1
+    - _StencilComp: 0
+    - _StencilRef: 0
+    - _StepViaRampTexture: 0
+    - _Surface: 0
+    - _USERAMPCOLOR: 0
+    - _UseClipPattern: 0
+    - _UseNormalMap: 0
+    - _UseRampColor: 0
+    - _ZWrite: 1
+    - _brushScale: 8
+    m_Colors:
+    - Color_4e669003dbc845f8b82877d4d180aa67: {r: 1, g: 1, b: 1, a: 0}
+    - Color_8f126a42a73a4d05a27de8241b7ae085: {r: 1, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FaceFrontDirection: {r: 0, g: 0, b: 1, a: 0}
+    - _FaceRightDirection: {r: 1, g: 0, b: 0, a: 0}
+    - _HairSpecColor: {r: 0, g: 0, b: 0, a: 1}
+    - _HalfToneColor: {r: 0, g: 0, b: 0, a: 1}
+    - _HalftoneColor: {r: 0, g: 0, b: 0, a: 0.5882353}
+    - _HatchingColor: {r: 0, g: 0, b: 0, a: 1}
+    - _HatchingScale: {r: 15, g: 1, b: 0, a: 0}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _OutlineDistancFade: {r: -25, g: 50, b: 0, a: 0}
+    - _RimColor: {r: 0.23584908, g: 0.18459094, b: 0, a: 1}
+    - _ShadowColor: {r: 1, g: 0, b: 0, a: 1}
+    - _SpecColor: {r: 38.075047, g: 38.075047, b: 38.075047, a: 1}
+    - _SpherizeNormalOrigin: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
