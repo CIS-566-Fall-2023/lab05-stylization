@@ -31,3 +31,18 @@ void ChooseColor_float(float3 Highlight, float3 Shadow, float Diffuse, float Thr
         OUT = Highlight;
     }
 }
+
+void ChooseColor3Tone_float(float3 Highlight, float3 Shadow, float Diffuse, float2 Threshold, out float3 OUT)
+{
+    if (Diffuse < Threshold.x)
+    {
+        OUT = Shadow;
+    }
+    else if (Diffuse < Threshold.y) {
+        OUT = lerp(Highlight, Shadow, 0.5);
+    }
+    else
+    {
+        OUT = Highlight;
+    }
+}
