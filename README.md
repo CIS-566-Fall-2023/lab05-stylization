@@ -1,3 +1,12 @@
+# Result screenshots
+
+Scene 1 (after addition of hatching)
+<img width="358" alt="image" src="https://github.com/printer83mph/cis566-lab05-stylization/assets/22186744/3eaa0c7d-824b-4004-8116-ed0270d6ffbf">
+
+Scene 2 (after hatching)
+<img width="511" alt="image" src="https://github.com/printer83mph/cis566-lab05-stylization/assets/22186744/154ec6b2-a69c-4fd3-92eb-55e9aeb535c4">
+<img width="585" alt="image" src="https://github.com/printer83mph/cis566-lab05-stylization/assets/22186744/e23c8b6e-0aec-40f1-a6bf-4a06e6601bac">
+
 # Lab 05 - Stylization!
 Let's practice adding stylization to a 3D scene using Unity's shader graph!
 
